@@ -1,0 +1,28 @@
+{
+  "name": "edi",
+  "version": "1.0.0",
+  "description": "Electronic Data Interchange (EDI) parser",
+  "main": "EDI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabudaldah/EDI.git"
+  },
+  "keywords": [
+    "EDI",
+    "EDIFACT",
+    "parser"
+  ],
+  "author": "Nabi Abudaldah <nabi.abudaldah@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabudaldah/EDI/issues"
+  },
+  "homepage": "https://github.com/nabudaldah/EDI#readme",
+  "dependencies": {
+    "moment": "^2.10.3",
+    "twix": "^0.6.4"
+  }
+}
