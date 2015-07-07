@@ -139,6 +139,12 @@ EDI.prototype.test = function(){
 
 }
 
+// Aliases
+EDI.prototype.e = EDI.prototype.elem  = EDI.prototype.element;
+EDI.prototype.c = EDI.prototype.comp  = EDI.prototype.component;
+EDI.prototype.s = EDI.prototype.str   = EDI.prototype.toString;
+EDI.prototype.n = EDI.prototype.num   = EDI.prototype.toNumber;
+
 exports = module.exports = EDI;
 
 
